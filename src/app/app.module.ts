@@ -8,6 +8,12 @@ import { HeaderComponent } from './header/header.component';
 import { ArticleListComponent } from './article-list/article-list.component';
 import { ArticleComponent } from './article/article.component';
 import { TagComponent } from './tag/tag.component';
+import { LoginComponent } from './login/login.component';
+import { TutorialsPageComponent } from './tutorials-page/tutorials-page.component';
+import { AboutPageComponent } from './about-page/about-page.component';
+import { PresentationPageComponent } from './presentation-page/presentation-page.component';
+import { routing } from './app.routing';
+
 
 @NgModule({
   declarations: [
@@ -15,12 +21,17 @@ import { TagComponent } from './tag/tag.component';
     HeaderComponent,
     ArticleListComponent,
     ArticleComponent,
-    TagComponent
+    TagComponent,
+    LoginComponent,
+    TutorialsPageComponent,
+    AboutPageComponent,
+    PresentationPageComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
