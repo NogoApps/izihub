@@ -1,0 +1,16 @@
+#search-form{
+    width: 50%;
+}
+
+#search-field{
+    width: 70%;
+}
+
+#nav-menu{
+    float: right; 
+    margin-right: 250px;
+}
+
+#nav-item-padding{
+    padding-left: 15px;
+}
