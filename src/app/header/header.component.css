@@ -1,6 +1,5 @@
 #search-form{
-    width: 40%;
-    margin-left: 30%;
+    width: 50%;
 }
 
 #search-field{
@@ -8,18 +7,13 @@
 }
 
 #nav-menu{
-    float: right; 
-    margin-right: 250px;
+    float: right;
+    margin-right: 20%;
 }
 
 .navbar-light {
  background: none;
- background-image: url("../app/header/logo.png");
- background-size: 155.8px 42.8px;
- background-repeat: no-repeat;
- margin-top: 0.8%;
- margin-left: 1%;
- background-position-y: 60%;
+ text-align: center;
 }
 
 .btn-outline-success{
@@ -40,3 +34,8 @@
     color: #55595c;
 }
 
+.navbar, .navbar-light, .bg-faded{
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
