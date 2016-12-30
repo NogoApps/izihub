@@ -1,5 +1,7 @@
 # Izihub
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/354873e8e12e4ab2b2a5e9a8115295d7)](https://www.codacy.com/app/danilosilvaweb/izihub?utm_source=github.com&utm_medium=referral&utm_content=NogoApps/izihub&utm_campaign=badger)
+
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.21.
 
 ## Development server
