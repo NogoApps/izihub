@@ -1,5 +1,6 @@
 #search-form{
     width: 50%;
+    margin-top: 0.4%;
 }
 
 #search-field{
@@ -13,4 +14,22 @@
 
 #nav-item-padding{
     padding-left: 15px;
+}
+
+.navbar-light {
+ background: none;
+}
+
+.btn-outline-success{
+    border: none;
+    color: black;
+    background: none;
+}
+
+.btn-outline-success:hover{
+    background: none;
+}
+
+.btn-outline-success:active{
+    background: none;
 }
