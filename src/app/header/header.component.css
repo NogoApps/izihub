@@ -3,12 +3,11 @@
 }
 
 #search-field{
-    width: 70%;
+    width: 60%;
 }
 
 #nav-menu{
     float: right;
-    margin-right: 20%;
 }
 
 .navbar-light {
@@ -38,4 +37,8 @@
     width: 90%;
     margin: auto;
     position: relative;
+}
+
+.navbar-nav .nav-item .nav-link.active{
+    color: #e60000;
 }

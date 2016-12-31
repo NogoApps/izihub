@@ -13,6 +13,7 @@ import { TutorialsPageComponent } from './tutorials-page/tutorials-page.componen
 import { AboutPageComponent } from './about-page/about-page.component';
 import { PresentationPageComponent } from './presentation-page/presentation-page.component';
 import { routing } from './app.routing';
+import { NewTutorialComponent } from './new-tutorial/new-tutorial.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { routing } from './app.routing';
     LoginComponent,
     TutorialsPageComponent,
     AboutPageComponent,
-    PresentationPageComponent
+    PresentationPageComponent,
+    NewTutorialComponent
   ],
   imports: [
     BrowserModule,
