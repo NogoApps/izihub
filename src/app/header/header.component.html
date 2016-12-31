@@ -1,3 +1,4 @@
+
 <nav class="navbar navbar-light bg-faded">
   <a class="navbar-brand" ><img src="../app/header/logo.png" alt="logo" height="41.8" width="142.8"></a>
   
@@ -7,11 +8,17 @@
   </form>
 
   <ul class="nav navbar-nav" id="nav-menu">
-    <li class="nav-item active">
-      <a class="nav-link" href="#">Login <span class="sr-only">(current)</span></a>
+    <li class="nav-item" id="nav-item-padding">
+      <a class="nav-link" routerLink="/new" routerLinkActive="active">New</a>
     </li>
     <li class="nav-item" id="nav-item-padding">
-      <a class="nav-link" href="/about">About</a>
+      <a class="nav-link" routerLink="/tutorials" routerLinkActive="active">Tutorials</a>
+    </li>
+     <li class="nav-item">
+      <a class="nav-link" routerLink="/about" routerLinkActive="active">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/login" routerLinkActive="active">Login</a>
     </li>
   </ul>
 

@@ -1,28 +1,23 @@
 #search-form{
     width: 50%;
-    margin-top: 0.4%;
 }
 
 #search-field{
-    width: 70%;
+    width: 60%;
 }
 
 #nav-menu{
-    float: right; 
-    margin-right: 250px;
-}
-
-#nav-item-padding{
-    padding-left: 15px;
+    float: right;
 }
 
 .navbar-light {
  background: none;
+ text-align: center;
 }
 
 .btn-outline-success{
-    border: none;
-    color: black;
+    border:none;
+    color: gray;
     background: none;
 }
 
@@ -30,6 +25,20 @@
     background: none;
 }
 
-.btn-outline-success:active{
-    background: none;
+.btn-outline-success:hover{
+    color: #55595c;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: #55595c;
+}
+
+.navbar, .navbar-light, .bg-faded{
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+.navbar-nav .nav-item .nav-link.active{
+    color: #e60000;
 }
