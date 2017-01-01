@@ -15,18 +15,10 @@
  text-align: center;
 }
 
-.btn-outline-success{
-    border:none;
-    color: gray;
+.btn-outline-success, .btn-outline-success:hover{
     background: none;
-}
-
-.btn-outline-success:hover{
-    background: none;
-}
-
-.btn-outline-success:hover{
     color: #55595c;
+    border:none;
 }
 
 .navbar-nav .nav-item .nav-link:hover{
