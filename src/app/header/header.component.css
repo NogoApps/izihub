@@ -47,10 +47,41 @@
 
 .btn-outline-success, .btn-outline-success:hover{
     background: none;
-    color: white;
     border:1px solid white;
 }
 
 .modal-content{
     border: none;
+}
+
+.add-button{
+    color: white;
+    background: none;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 5px;
+    
+}
+
+.btn.btn-primary{
+    background: none;
+    border: none;
+    color: #808080;
+    padding: 0px;
+}
+
+.btn.btn-primary:hover{
+    background: none;
+    color: #55595c;
+}
+
+.btn, .btn-primary{
+    background: none;
+    color: #55595c;
+}
+
+.github-login{
+    border-radius: 5px;
 }

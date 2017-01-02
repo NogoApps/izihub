@@ -10,17 +10,17 @@
   <ul class="nav navbar-nav" id="nav-menu">
     
     <li class="nav-item" id="nav-item-padding">
-      <a class="nav-link" routerLink="/new" routerLinkActive="active"  data-toggle="modal" data-target=".bd-example-modal-lg" >Add Tutorial
-        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-              <form class="form-inline float-xs-left" id="link-field" class="form-control-add-tutorial">
-            <input class="form-control" type="text" placeholder="http://www.example.com" (click)="addTutorial()" >
-            <button class="btn btn-outline-success" type="submit">Add</button>
-          </form>
-            </div>
-          </div>
-        </div></a>
+      <a class="nav-link" href="" data-toggle="modal" data-target=".bd-example-modal-lg">Add Article</a>
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <form class="form-inline float-xs-left" id="link-field">
+    <input class="form-control" type="text" placeholder="http://www.example.com">
+    <button class="btn btn-outline-success" class="add-button" type="submit">Add</button>
+  </form>
+    </div>
+  </div>
+</div>
     </li>
 
     <li class="nav-item" id="nav-item-padding">
@@ -30,7 +30,21 @@
       <a class="nav-link" routerLink="/about" routerLinkActive="active">About</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" routerLink="/login" routerLinkActive="active">Login</a>
+          
+      <!-- Small modal -->
+<a href="" class="nav-link" data-toggle="modal" data-target=".bd-example-modal-sm">Login</a>
+
+<div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <a href="#"><img class="github-login"src="../app/header/github-login.png"></a>
+    </div>
+  </div>
+</div>
+
+
+
+
     </li>
   </ul>
 
