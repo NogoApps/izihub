@@ -1,0 +1,22 @@
+.list-group{
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 90%;
+}
+
+.pagination{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-link{
+    color: gray;
+}
+
+.tag, .tag-default, .tag-pill, .float-xs-right{
+    background: green;
+}
+
+.unverified{
+    background: gray;
+}

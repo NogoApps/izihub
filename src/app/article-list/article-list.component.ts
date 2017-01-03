@@ -12,4 +12,8 @@ export class ArticleListComponent implements OnInit {
   ngOnInit() {
   }
 
+  title: string = 'Tour of Heroes';
+  article: string = 'Once upon a time, that live in a small house Once upon a time, that live in a small house'+'...';
+  verifiedTag = 'Verified';
+  notSureTag = 'Not sure';
 }

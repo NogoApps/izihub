@@ -14,6 +14,7 @@ import { AboutPageComponent } from './about-page/about-page.component';
 import { PresentationPageComponent } from './presentation-page/presentation-page.component';
 import { routing } from './app.routing';
 import { NewTutorialComponent } from './new-tutorial/new-tutorial.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { NewTutorialComponent } from './new-tutorial/new-tutorial.component';
     TutorialsPageComponent,
     AboutPageComponent,
     PresentationPageComponent,
-    NewTutorialComponent
+    NewTutorialComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
