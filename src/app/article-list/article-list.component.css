@@ -4,9 +4,17 @@
     width: 90%;
 }
 
+.list-group-item, .list-group-item-action, .list-group-item-text{
+    border: none;
+    padding-bottom: 1%;
+}
+
+.list-group-item-text{
+    border-bottom: 1px solid #e6e6e6;
+}
+
 .pagination{
-    margin-left: auto;
-    margin-right: auto;
+    float: right;
 }
 
 .page-link{
